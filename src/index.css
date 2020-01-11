@@ -5,9 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url("img/fd52156bf34debe6449c30893b8feba2.jpg");
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+img[name="logo"]{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 4px;
+  z-index: 99;
+}
+
