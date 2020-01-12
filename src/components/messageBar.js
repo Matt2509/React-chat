@@ -60,7 +60,7 @@ class MessageBar extends Component {
     e.preventDefault();
 
     if (this.state.message !== "") {
-      this.props.onAddMessage(this.state.message, "ThibZ");
+      this.props.onAddMessage(this.state.message, "Matt");
       this.setState({ message: "" });
     }
   };
